@@ -1,0 +1,125 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: red;
+  height: 150px;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 20;
+  text-align: center;
+}
+.title {
+  color: #0baf94;
+  font-size: 50px;
+  font-weight: 700;
+  text-shadow: 3px 3px #f90;
+}
+.subtitle {
+  color: #f90;
+  font-size: 30px;
+  font-weight: 900;
+  text-shadow: 3px 3px #0baf94;
+}
+main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+ 
+}
+main .showgame{
+  position: fixed;
+  width: 40%;
+  height: 100%;
+  background-color: #66c0f4b0;
+}
+.avatar-wrapper {
+  background-color: #fff;
+  border: 15px solid #0baf94;
+  border-radius: 40px;
+  display: inline-block;
+  padding: 50px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: calc(50% - 205px);
+  margin-left: 30%;
+}
+.avatar {
+  height: 280px;
+  position: relative;
+  width: 260px;
+}
+.text-center {
+  text-align: center;
+}
+.button {
+  background-color: #ca5119;
+  border: none;
+  border-radius: 15px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 700;
+  margin: 0 10px;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+main  .selectimage
+{
+  position: fixed;
+  margin-left: 40%;
+  width: 60%;
+  height: 100%;
+  background-color: rgb(30, 255, 0);
+  display: flex;
+  flex-flow: row wrap;
+  align-content: flex-start;
+ 
+  
+}
+.list-section {
+  max-width: 700px;
+  text-align: center;
+  margin-left: 100px;
+  margin-top: 120px;
+}
+.list {
+  background-color: rgba(255,166,0,.4);
+  border: 5px solid orange;
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 10px 0;
+  padding: 20px;
+}
+.square {
+  border-radius: 10px;
+  box-shadow: 0 0 0 1px rgb(0 0 0 / 15%);
+  height: 50px;
+  overflow: hidden;
+  position: relative;
+  width: 50px;
+}
+element.style {
+  z-index: 6;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.img-center {
+  left: 50%;
+  position: absolute;
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+    
+}
+div {
+  display: block;
+}
